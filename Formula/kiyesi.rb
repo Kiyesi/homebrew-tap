@@ -28,6 +28,9 @@ class Kiyesi < Formula
 
   def install
     bin.install Dir["kiyesi-*"].first => "kiyesi"
+    # The release is one file, not an archive, so it arrives without the
+    # permission to run: give it that before anything runs it.
+    chmod 0755, bin/"kiyesi"
     generate_completions_from_executable(bin/"kiyesi", "completion")
   end
 
