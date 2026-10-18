@@ -7,22 +7,22 @@ class Kiyesi < Formula
   on_macos do
     on_arm do
       url "https://get.kiyesi.dev/kiyesi-darwin-arm64"
-      sha256 "c8517d8b0211c54f1f453a92ade1be166df49ec6f3affcac973f12de6d013e5b"
+      sha256 "ecace4dc189b29ecc7768b213931d4728e36bc49eecae9ec1b0be3eeb5599024"
     end
     on_intel do
       url "https://get.kiyesi.dev/kiyesi-darwin-amd64"
-      sha256 "ca8478d08b789b65823a3da4f401ad8fc5205b0d5e5905871b4e3c369327069c"
+      sha256 "b9d2cedc016dd67100399c8c14e3ef1d4986d6bdc8f4687adc60a285e8f7bb90"
     end
   end
 
   on_linux do
     on_arm do
       url "https://get.kiyesi.dev/kiyesi-linux-arm64"
-      sha256 "2b0466ab8d1a9c94cddd05c1c5fc723d5d0e90e2881261d89083fd0a4293c64b"
+      sha256 "ff7f9cdae71bd7f48d7216029a51748d1aaeb9777f013a6b2978f6de074b1722"
     end
     on_intel do
       url "https://get.kiyesi.dev/kiyesi-linux-amd64"
-      sha256 "2dbefc09650df0f6ff5fa20e5c60a1d9af7ce2e0ea51166d2b068dd771f24851"
+      sha256 "a2b0654160e9d859a293d80f949be0acc951a359c6f5c41991c1f44ab5b3fcc9"
     end
   end
 
