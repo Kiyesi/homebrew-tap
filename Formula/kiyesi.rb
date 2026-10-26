@@ -2,27 +2,27 @@
 class Kiyesi < Formula
   desc "Checks the health and security of your servers, and tells you how to fix them"
   homepage "https://kiyesi.dev"
-  version "0.39.6"
+  version "0.40.0"
 
   on_macos do
     on_arm do
       url "https://get.kiyesi.dev/kiyesi-darwin-arm64"
-      sha256 "1b9e77af066c94ef58b0833a8c9f77e5588557598cb95e9cbd882df95eafe229"
+      sha256 "b35a83de2f933a15c401375ddf50f823c3dc4d227ec5c8c9e3ae8026d936826d"
     end
     on_intel do
       url "https://get.kiyesi.dev/kiyesi-darwin-amd64"
-      sha256 "f34c81b5482c9f7f95a0964bc89c2bb4aeba59f0b5512a9d7c372f5ac0070a44"
+      sha256 "4acf6a097aa62dcb409d76e0b7f877ea3c94dc43db12619cbdf8b477f32d0adc"
     end
   end
 
   on_linux do
     on_arm do
       url "https://get.kiyesi.dev/kiyesi-linux-arm64"
-      sha256 "9a9b7c0216906ccac1a6ece0846362fe42004fac2da4c48086a8f13ceff70e24"
+      sha256 "628279afcf34d8e117fdd28b32fdf4ad81552e83915376f655dbc85e427b1021"
     end
     on_intel do
       url "https://get.kiyesi.dev/kiyesi-linux-amd64"
-      sha256 "fc5e580877f6e991afc5c111684a72b59aebe192cbb5418693cced50cbba6d06"
+      sha256 "40f404d5242fef135821a49dd76a8025906e96ae4322bf430d9e38f565677419"
     end
   end
 
