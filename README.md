@@ -4,6 +4,6 @@
 brew install kiyesi/tap/kiyesi
 ```
 
-Installs the `kiyesi` command (0.41.5) with tab completion. Then sign in with
+Installs the `kiyesi` command (0.42.0) with tab completion. Then sign in with
 `kiyesi login`. The same builds as `curl -fsSL https://get.kiyesi.dev | sh`, checked
 against the checksums Kiyesi signed for the release. [Docs](https://docs.kiyesi.dev).
